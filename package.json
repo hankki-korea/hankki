@@ -6,7 +6,7 @@
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/node": "^7.17.10",
-    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.17.10",
     "base64-js": "^1.5.1",
     "bson": "^4.6.3",
     "buffer": "^5.7.1",
@@ -42,17 +42,8 @@
     "whatwg-url": "^11.0.0"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node app.js",
-    "build": "babel src/js -w -d dist/js"
+    "start": "nodemon --exec babel-node app.js"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/preset-env": "^7.18.2",
-    "css-loader": "^6.7.1",
-    "mini-css-extract-plugin": "^2.6.0",
-    "node-sass": "^7.0.1",
-    "sass-loader": "^13.0.0",
-    "style-loader": "^3.3.1"
-  }
+  "license": "ISC"
 }
