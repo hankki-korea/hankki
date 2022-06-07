@@ -3,10 +3,10 @@ import session from "express-session";
 import MongoStore from "connect-mongo";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+console.log("app.jsjs");
 import router from "./routers";
 import cors from "cors";
 import { appendFile } from "fs";
-console.log("app.js");
 
 dotenv.config();
 const app = express();
