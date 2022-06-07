@@ -1,4 +1,3 @@
-const x = require("express");
 import express from "express";
 import session from "express-session";
 import MongoStore from "connect-mongo";
@@ -7,6 +6,7 @@ import dotenv from "dotenv";
 import router from "./routers";
 import cors from "cors";
 import { appendFile } from "fs";
+console.log("app.js");
 
 dotenv.config();
 const app = express();
