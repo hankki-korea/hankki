@@ -4,9 +4,7 @@
   "description": "hankki application",
   "main": "app.js",
   "dependencies": {
-    "@babel/core": "^7.17.10",
     "@babel/node": "^7.17.10",
-    "@babel/preset-env": "^7.17.10",
     "base64-js": "^1.5.1",
     "bson": "^4.6.3",
     "buffer": "^5.7.1",
@@ -45,5 +43,10 @@
     "start": "nodemon --exec babel-node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  }
 }
